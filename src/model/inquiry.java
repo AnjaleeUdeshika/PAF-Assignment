@@ -52,7 +52,7 @@ public String insertInquiry(String accNo, String cusName, String date, String co
 		
 	}
 	
-	public String readItems() {
+	public String readInquiry() {
 		
 		String output = "";
 		
@@ -114,7 +114,7 @@ public String insertInquiry(String accNo, String cusName, String date, String co
 		
 	}
 	
-	public String updateItem(String inqID, String accNo, String cusName, String date, String complain) {
+	public String updateInquiry(String inqID, String accNo, String cusName, String date, String complain) {
 		
 		String output = "";
 		
@@ -159,7 +159,7 @@ public String insertInquiry(String accNo, String cusName, String date, String co
 		
 	}
 	
-	public String deleteItem(String inqID) {
+	public String deleteInquiry(String inqID) {
 		
 		String output = "";
 		

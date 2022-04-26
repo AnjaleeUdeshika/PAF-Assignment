@@ -19,7 +19,7 @@ public class connection {
 			System.out.print("Successfully Connected");
 			
 		}
-		//catch(Exception e){
+		catch(Exception e){
 			
 			e.printStackTrace();
 			

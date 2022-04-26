@@ -10,7 +10,7 @@ public class connection {
 		
 		Connection con = null;
 		
-		//try {
+		try {
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/paf", "root", "");
